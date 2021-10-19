@@ -7,5 +7,6 @@ jobs:
       - name: Git checkout
         uses: actions/checkout@v2
       - name: Execute tests
-        run: exit 0
+        run: |
+          echo "Hello world"
         
