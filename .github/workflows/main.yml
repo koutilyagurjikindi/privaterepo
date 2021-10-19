@@ -1,0 +1,8 @@
+name: Demo
+on: push
+jobs:
+  build:
+    runs-on: koutilyaota
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v2
