@@ -9,7 +9,4 @@ jobs:
       - name: Execute tests
         run: |
           echo "Hello world"
-      - name: Execute tests
-        run: |
-          echo "Hello world"
         
