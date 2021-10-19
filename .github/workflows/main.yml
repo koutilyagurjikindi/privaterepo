@@ -6,3 +6,6 @@ jobs:
     steps:
       - name: Git checkout
         uses: actions/checkout@v2
+      - name: Echo myname
+        run: |
+          echo "Hello world"
